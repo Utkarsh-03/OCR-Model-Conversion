@@ -11,7 +11,7 @@ Utilizes GPU acceleration for faster video processing.
 Computes and logs FPS to evaluate GPU performance.
 Ideal for environments with GPU support for enhanced speed.
 
-### 1. `cpu.py`
+### 2. `cpu.py`
 This file includes the basic implementation of the OCR video processing pipeline for the CPU. The script reads video frames, performs text recognition using PaddleOCR, and displays the recognized text on the video. FPS and processing time are also calculated, specifically for CPU-based execution.
 
 Key Features:
@@ -19,7 +19,7 @@ Runs OCR on the CPU, without relying on GPU resources.
 Computes and logs CPU-specific FPS and processing time.
 Useful for systems without GPU support or for comparing CPU and GPU performance.
 
-### 1. `updatedcpu.py`
+### 3. `updatedcpu.py`
 This file contains an optimized version of the CPU-based OCR processing script. It applies various CPU optimization techniques to minimize the gap in performance between CPU and GPU executions. The optimizations aim to maintain or improve FPS and accuracy on the CPU, making it more efficient for video processing tasks.
 
 Key Features:
