@@ -3,7 +3,7 @@ This project demonstrates how to process videos using Optical Character Recognit
 
 # File Descriptions
 
-1. gpu.py
+### 1. `gpu.py`
 This file contains the implementation for running Optical Character Recognition (OCR) on a GPU using PaddleOCR. It processes video frames by recognizing and extracting text from each frame. The recognized text is displayed with bounding boxes, and performance metrics like processing time and frames per second (FPS) are calculated specifically for GPU execution.
 
 Key Features:
@@ -11,7 +11,7 @@ Utilizes GPU acceleration for faster video processing.
 Computes and logs FPS to evaluate GPU performance.
 Ideal for environments with GPU support for enhanced speed.
 
-2. cpu.py
+### 1. `cpu.py`
 This file includes the basic implementation of the OCR video processing pipeline for the CPU. The script reads video frames, performs text recognition using PaddleOCR, and displays the recognized text on the video. FPS and processing time are also calculated, specifically for CPU-based execution.
 
 Key Features:
@@ -19,7 +19,7 @@ Runs OCR on the CPU, without relying on GPU resources.
 Computes and logs CPU-specific FPS and processing time.
 Useful for systems without GPU support or for comparing CPU and GPU performance.
 
-3. updatedcpu.py
+### 1. `updatedcpu.py`
 This file contains an optimized version of the CPU-based OCR processing script. It applies various CPU optimization techniques to minimize the gap in performance between CPU and GPU executions. The optimizations aim to maintain or improve FPS and accuracy on the CPU, making it more efficient for video processing tasks.
 
 Key Features:
